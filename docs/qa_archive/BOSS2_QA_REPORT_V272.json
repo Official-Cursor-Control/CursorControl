@@ -1,0 +1,12 @@
+{
+  "version": 272,
+  "movement_node_visibility_runs": 500,
+  "frames_per_run": 1200,
+  "simulated_frames": 600000,
+  "offscreen_node_recycles": 195,
+  "impossible_offscreen_failures": 0,
+  "collision_pocket_tests": 100000,
+  "collision_pocket_failures": 0,
+  "render_rule": "All serpent PNG body segments remain rendered beneath live nodes; collision suppression is independent.",
+  "offscreen_rule": "If a live node leaves the 82px playable inset it is cancelled without penalty and a replacement is scheduled in 120ms."
+}

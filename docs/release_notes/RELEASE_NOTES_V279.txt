@@ -1,0 +1,15 @@
+Cursor Control v279
+
+- Thruster fire colour unlocks/equipped colour and fire-size unlocks/equipped size are included in the player-profile cloud sync contract.
+- Profile titles, name colours and profile frames now have permanent unlock collections for cross-device sync.
+- Eight selectable profile frames: Default, Bronze, Silver, Gold, Diamond, Master, Void Serpent and Perfection.
+- Void Serpent defeat now has an achievement entry and unlocks the VOID SLAYER title + Void Serpent frame.
+- Selected titles display on local and global profiles; selected name colour and frame remain visible globally.
+- Distinctive achievements award titles instead of EXP.
+- Achievement cards keep text constrained to their card layout.
+- Local/global rank emblems remain 25% larger with adjacent profile information shifted right.
+- Legacy Discord #0 suffix is removed from global profile names.
+- Gold thruster fire now costs 750 Space Coins and appears directly after Silver without changing persisted cosmetic IDs.
+- Failed Garage purchases show “You do not have enough coins to buy this.” in yellow for 2 seconds.
+- Player-facing English string audit found no known US-English spellings; British English is used throughout checked UI copy.
+- Windows build uses the GUI subsystem, so no external CMD window is required.

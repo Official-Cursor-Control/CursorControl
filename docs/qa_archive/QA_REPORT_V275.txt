@@ -1,0 +1,4 @@
+Cursor Control v275 QA
+PASS: survival.go contains no calls to drawMenuButton or drawDropdownMenu.
+PASS: Windows amd64 build completed successfully.
+PASS: Runtime package retained v274 assets and only replaced executable/release notes.

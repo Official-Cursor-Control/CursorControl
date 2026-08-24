@@ -1,0 +1,6 @@
+Cursor Control v355 — Ocean / Sentinel Profile Banner Size Fix
+
+- Corrected the Ocean and Sentinel Global Profile banner artwork footprint.
+- Both banners now use the same compact vertical presentation as the rest of the profile skin set instead of overpowering the identity area.
+- Banner canvas remains exactly 1124x174 premultiplied BGRA, so profile rendering, cloud cosmetic IDs, hitboxes and gallery layout are unchanged.
+- Includes the v354 boss-music Continue fix and all Survival boss polish from v352+.

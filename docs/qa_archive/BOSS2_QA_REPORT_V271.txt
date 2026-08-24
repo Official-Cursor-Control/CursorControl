@@ -1,0 +1,9 @@
+Cursor Control v271 — Boss 2 node collision cutout QA
+
+Live-node collision tests: 100,000 | failures: 0
+Post-click exit-grace runs: 50,000 | failures: 0
+Live node safe radius: 92 px reference scale
+Post-click exit safe radius: 108 px reference scale
+Post-click collision grace: 700 ms
+Host body segment + 2 neighbours on each side are excluded from collision while node is present.
+The collision-safe pocket is evaluated before ALL serpent head/body collision checks.

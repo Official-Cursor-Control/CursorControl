@@ -1,0 +1,8 @@
+Cursor Control v379 - Global Profile Fixes
+
+- Replaced the Gold-I Impact profile font with Consolas.
+- Removed rank labels from Global Profile customisation tab buttons.
+- Increased spacing around the Gold-I font cards so explanatory text no longer sits behind them.
+- Added fail-safe rendering for Advanced Name fonts so a missing/failed custom raster can never make the player's display name invisible.
+- Raised banner name/requirement/status text inside each banner card.
+- Hardened selected-banner ownership/persistence so a valid equipped banner is preserved while cloud ownership synchronises.

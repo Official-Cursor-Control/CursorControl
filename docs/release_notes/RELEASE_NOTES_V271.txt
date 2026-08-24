@@ -1,0 +1,8 @@
+Cursor Control v271 — Void Serpent Node Collision Cutout
+
+- Fixed successful node clicks immediately restoring lethal serpent collision under the cursor.
+- Live nodes now carve a true 92 px collision-safe pocket before any head/body collision checks.
+- Node host segment plus two neighbours on each side are excluded from body collision while the node exists.
+- After a node is successfully hit, a 108 px collision-safe exit pocket remains for 700 ms so the player can leave the serpent body safely.
+- Visible body breach widened to match the larger collision opening.
+- Boss 2 size, smooth-turn movement, scrolling background, Boss 1-style transition and music system are retained from v270.

@@ -1,0 +1,8 @@
+Cursor Control v272 — Void Serpent node/render fairness fix
+
+- Restored all serpent body PNGs underneath active red/blue nodes. The boss no longer has visible missing body pieces when a node appears.
+- Node accessibility is now collision-only: the live node safe pocket is evaluated before any serpent contact checks, and the host segment plus two neighbours on each side remain non-lethal while the node is present.
+- Kept the 700 ms post-hit safe exit pocket from v271.
+- Added off-screen node protection: if the serpent carries an active/telegraphing node outside a safe playable inset, the node is cancelled without penalty and a new on-screen node is queued almost immediately.
+- Tightened initial node selection to favour segments further inside the arena so nodes are less likely to be carried out during their reaction window.
+- Retains v271's larger serpent, broad-turn movement, scrolling Boss 2 arena and Boss 1-style boss transition/music system.

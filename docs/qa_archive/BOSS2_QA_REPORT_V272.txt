@@ -1,0 +1,10 @@
+Cursor Control v272 — Boss 2 node visibility/collision QA
+
+Movement/node visibility: 500 runs × 1200 frames = 600,000 frames
+Off-screen node recycles observed: 195
+Impossible off-screen failures: 0
+Collision-safe pocket tests: 100,000 | failures: 0
+
+Visual rule: the full serpent PNG remains visible beneath every node.
+Collision rule: the live node safe pocket and host ±2 segment collision suppression remain active independently of rendering.
+Off-screen fairness rule: if the carrying segment takes a live node outside the 82 px playable inset, that node is cancelled with no fail and a replacement is queued after 120 ms.

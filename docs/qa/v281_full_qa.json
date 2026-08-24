@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-08-16T07:13:21Z",
+  "runtime": "/mnt/data/build_v281/CursorControl_v281_RUNTIME_SERPENT_REENTRY",
+  "source": "/mnt/data/v285src",
+  "passed": 341,
+  "total": 341,
+  "failed": [],
+  "groups": {
+    "packaging": {
+      "passed": 3,
+      "total": 3
+    },
+    "source": {
+      "passed": 6,
+      "total": 6
+    },
+    "assets": {
+      "passed": 1,
+      "total": 1
+    },
+    "asset": {
+      "passed": 192,
+      "total": 192
+    },
+    "audio_ref": {
+      "passed": 25,
+      "total": 25
+    },
+    "audio_probe": {
+      "passed": 25,
+      "total": 25
+    },
+    "audio_decode": {
+      "passed": 50,
+      "total": 50
+    },
+    "button_asset": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_wiring": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_geometry": {
+      "passed": 1,
+      "total": 1
+    },
+    "ui": {
+      "passed": 1,
+      "total": 1
+    },
+    "language": {
+      "passed": 1,
+      "total": 1
+    },
+    "network": {
+      "passed": 2,
+      "total": 2
+    },
+    "audio_runtime": {
+      "passed": 8,
+      "total": 8
+    }
+  }
+}

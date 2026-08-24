@@ -1,0 +1,8 @@
+Cursor Control v381 — v360 Banner Persistence + Advanced Name Alignment
+
+- Restored the proven v360 Global Profile banner ownership/equip synchronization path.
+- Removed the newer explicit-selection/stale-response banner sync layer that could fight the original cloud persistence contract.
+- Platinum I still gates banner customization, while an already-owned/equipped banner is no longer invalidated while rank/profile data is loading.
+- Deployed player-profile Edge Function v10 using the restored v360 selection-with-fallback banner contract.
+- Removed the temporary database banner-preservation trigger so persistence is controlled by the same application/Edge Function flow as v360.
+- Advanced Name fonts now render from the exact same top-left origin as the default Global Profile name font; decorative font metrics no longer recenter or shift the name.

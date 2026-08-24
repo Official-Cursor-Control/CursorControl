@@ -1,0 +1,12 @@
+{
+  "runs": 500,
+  "frames_per_run": 900,
+  "segment_count": 48,
+  "approx_serpent_length_px": 3024.0,
+  "entry_tail_x_px": 4334.0,
+  "entry_tail_more_than_one_screen_off_right": true,
+  "finite_movement_runs": true,
+  "min_turn_radius_px_approx": 260.42,
+  "node_candidate_trials": 10000,
+  "node_candidate_success": 7567
+}

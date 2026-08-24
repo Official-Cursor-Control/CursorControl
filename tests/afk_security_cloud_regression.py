@@ -1,0 +1,33 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+files={p.name:p.read_text(errors="ignore") for p in root.glob("afk_*.go")}
+cloud=files.get("afk_cloud_sync.go","")
+security=files.get("afk_security.go","")
+sing=files.get("afk_singularity.go","")
+checks=[]
+def chk(name, cond):
+    checks.append((name,bool(cond)))
+chk("manual click hard cap", "afkManualClickMinInterval = 350 * time.Millisecond" in security)
+chk("economy action debounce", "afkEconomyActionDebounce" in security)
+chk("claim debounce", "afkClaimActionDebounce" in security)
+chk("single device ID persistence", "device_id.txt" in cloud)
+chk("new login claims device", 'afkCloudPost("claim_device"' in cloud)
+chk("session token required", '"session_token"' in cloud)
+chk("old device logout path", "Account was opened on another device" in cloud or "ACCOUNT ACTIVE ON ANOTHER DEVICE" in cloud)
+chk("cloud lease gates economy", "afkCloudEconomyAllowed(now)" in sing)
+chk("manual gain tracked for server cap", "afkCloudRecordManualGain(gain)" in sing)
+chk("cloud heartbeat from global live tick", "afkCloudTick" in (root/'ui_leaderboards_profiles.go').read_text())
+chk("discord login triggers device claim", "afkCloudClaimDeviceAsync()" in (root/'online_sync.go').read_text())
+chk("SpaceCoin writes isolated to explicit Exchange", not any("gameMeta.SpaceCoins" in v for k,v in files.items() if k != "afk_exchange.go") and "gameMeta.SpaceCoins += out.SpaceCoinsReward" in files.get("afk_exchange.go",""))
+chk("prestige anti-spam", "afkActionAllowed(\"prestige\"" in files.get("afk_endgame.go",""))
+chk("offline claim anti-spam", "claim_offline" in sing)
+chk("active cache claim anti-spam", "claim_active_cache" in sing)
+chk("drone purchases anti-spam", "buy_drone_" in files.get("afk_drones.go",""))
+chk("orbital purchases anti-spam", "buy_orbital_" in files.get("afk_orbital.go",""))
+chk("operator recruit anti-spam", "recruit_operator_" in files.get("afk_operators.go",""))
+chk("research anti-spam", "buy_research_" in files.get("afk_research_talents.go",""))
+chk("craft anti-spam", "craft_module_" in files.get("afk_modules.go",""))
+chk("server backend source included", (root/'backend/afk-sync/index.ts').exists() and (root/'backend/starbase-exchange/index.ts').exists())
+for n,ok in checks: print(("PASS" if ok else "FAIL")+" - "+n)
+print(f"\n{sum(ok for _,ok in checks)}/{len(checks)} security/cloud assertions passed")
+raise SystemExit(0 if all(ok for _,ok in checks) else 1)

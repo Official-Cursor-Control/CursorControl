@@ -1,0 +1,11 @@
+{
+  "version": 271,
+  "live_node_collision_tests": 100000,
+  "live_node_failures": 0,
+  "post_click_grace_runs": 50000,
+  "post_click_grace_failures": 0,
+  "live_safe_radius_px_at_1200w": 92,
+  "exit_safe_radius_px_at_1200w": 108,
+  "exit_grace_ms": 700,
+  "host_neighbor_segments_collision_disabled_each_side": 2
+}

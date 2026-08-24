@@ -1,0 +1,6 @@
+Cursor Control v380
+- Replaced Advanced Name raster atlases with the actual supplied TTF/OTF faces loaded privately at runtime from font data embedded in the EXE.
+- Advanced Name rendering dynamically shrinks to fit and falls back safely instead of ever making a display name invisible.
+- Hardened banner persistence: routine profile syncs can no longer clear an already equipped banner; Supabase now also preserves non-zero equipped banner values against stale zero writes.
+- Restored the affected account's previously selected banner after confirming the old value had been overwritten by a stale sync.
+- Preserved the embedded Windows application/taskbar/title-bar icon.

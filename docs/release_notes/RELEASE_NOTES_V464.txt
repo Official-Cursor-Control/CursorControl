@@ -1,0 +1,8 @@
+CURSOR CONTROL v464
+
+STARBASE // SHIP MODULE RECIPE READABILITY
+
+- Every ship-module piece now requires no more than 3 distinct crafting material types.
+- Rare-material progression is preserved while common-material requirements rotate for variety.
+- This prevents long requirement strings from overflowing the module panel.
+- Existing crafted-module save indices and progress are unchanged.

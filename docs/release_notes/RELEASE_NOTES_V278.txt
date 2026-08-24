@@ -1,0 +1,11 @@
+Cursor Control v278
+
+- Thruster fire colour unlocks and equipped colour are now included in cloud profile sync.
+- Thruster fire size unlocks and equipped size are now included in cloud profile sync.
+- Added profile cosmetic groundwork: selectable player titles, name colours and profile frames in Settings.
+- Selected profile cosmetics are included in the cloud profile sync contract.
+- A selection of distinctive achievements now award permanent titles instead of EXP.
+- Achievement descriptions are wrapped/clipped inside their own cards.
+- Local and global profile rank emblems increased by 25%, with adjacent information moved right automatically.
+- Legacy Discord #0 suffix removed from global profile display names.
+- Full player-facing copy scan converted known US spellings to British English (COLOUR, CENTRE, METRES, DEFENCE).

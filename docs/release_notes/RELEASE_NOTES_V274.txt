@@ -1,0 +1,10 @@
+CURSOR CONTROL v274 — ESC MENU / PRECISION FLOW OVERHAUL
+
+- Completely redesigned ESC menu with a cleaner layered game-UI presentation.
+- Removed Profile, Local Leaderboard and Global Leaderboard duplicates from the ESC menu; those remain directly accessible from the HUD.
+- Retired the small orange training-settings dropdown from the playfield.
+- Moved Discord Account access into the ESC menu with live login status.
+- Removed player-facing Adaptive training and course-type selection.
+- Precision now automatically randomizes between its course archetypes every generated course.
+- Changing PRECISION FAIL SOUND in Settings immediately previews the newly selected sound.
+- Existing Survival, Endurance, Boss 2, leaderboards, profile and HUD functionality retained.

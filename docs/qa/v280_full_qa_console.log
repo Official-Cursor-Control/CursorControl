@@ -1,0 +1,718 @@
+PASS [packaging] runtime_root_only_exe ['CursorControlTrainer_v280.exe']
+PASS [packaging] runtime_no_dev_dirs []
+PASS [packaging] runtime_no_document_clutter []
+PASS [source] gofmt_clean 
+PASS [source] windows_build_1 
+PASS [source] windows_build_2 
+PASS [source] windows_build_3 
+PASS [source] deterministic_builds ['8f83cc7b07f02b1d95f3121e130128020f94e1981f6cd8b984f69785edbb0371', '8f83cc7b07f02b1d95f3121e130128020f94e1981f6cd8b984f69785edbb0371', '8f83cc7b07f02b1d95f3121e130128020f94e1981f6cd8b984f69785edbb0371']
+PASS [source] go_vet_no_unexpected_diagnostics accepted Win32 unsafe interop warnings=10; unexpected=[]
+PASS [assets] asset_count_nonzero 192
+PASS [asset] assets/audio/endurance_music.mp3 2249512 bytes sha=d315dcb3b5c6
+PASS [asset] assets/audio/Minecraft.mp3 5560 bytes sha=dce98f146361
+PASS [asset] assets/audio/endurance_fail.mp3 116747 bytes sha=43b015782785
+PASS [asset] assets/audio/button_click.mp3 15102 bytes sha=e2670b186870
+PASS [asset] assets/audio/survival_section_3.mp3 6145309 bytes sha=4cf4326cb82e
+PASS [asset] assets/audio/hit.wav 7540 bytes sha=9a2a5f2e6de2
+PASS [asset] assets/audio/Among Us.mp3 44284 bytes sha=d8b3c4c762ab
+PASS [asset] assets/audio/alien_charge_up.mp3 241105 bytes sha=dd17da350e17
+PASS [asset] assets/audio/powerup_pickup.mp3 73314 bytes sha=4af38621ff06
+PASS [asset] assets/audio/alien_impact_laser.mp3 140657 bytes sha=b6c3f69a5957
+PASS [asset] assets/audio/buzzer_loud.mp3 98558 bytes sha=72491b6dde65
+PASS [asset] assets/audio/survival_section_2.mp3 6145309 bytes sha=f272ae310dfc
+PASS [asset] assets/audio/space_cache_open.mp3 21991 bytes sha=5a4515447131
+PASS [asset] assets/audio/rechamber.wav 60020 bytes sha=7a9562753c98
+PASS [asset] assets/audio/survival_section_1.mp3 6145309 bytes sha=bc5088eae04c
+PASS [asset] assets/audio/shield_protect.mp3 259550 bytes sha=e14cbbd130a4
+PASS [asset] assets/audio/boss_click_effect.mp3 19491 bytes sha=615a2531b86f
+PASS [asset] assets/audio/Roblox.mp3 4675 bytes sha=5fa388928513
+PASS [asset] assets/audio/ready_go.mp3 118001 bytes sha=04207add5207
+PASS [asset] assets/audio/Fortnite.mp3 14480 bytes sha=5887eeb1758f
+PASS [asset] assets/audio/meteorite_explode.mp3 66592 bytes sha=f00a430258d4
+PASS [asset] assets/audio/rocket_sound.mp3 113685 bytes sha=ad8e30996432
+PASS [asset] assets/audio/levelup.wav 63548 bytes sha=2606d0a5647d
+PASS [asset] assets/audio/boss_nova.mp3 1519988 bytes sha=6afbc1b9bfd6
+PASS [asset] assets/audio/survival_boss1_music.mp3 1198762 bytes sha=e478b5ecd106
+PASS [asset] assets/ui/bug_report_button.bgra 334620 bytes sha=7f58253e8187
+PASS [asset] assets/ui/failed_survival.bgra 6293408 bytes sha=763f66308c9f
+PASS [asset] assets/ui/garage_button.bgra 330880 bytes sha=495c433e9f74
+PASS [asset] assets/ui/hud_icon_score.bgra 16384 bytes sha=43df5dffcb7e
+PASS [asset] assets/ui/hud_icon_difficulty.bgra 16384 bytes sha=32ef5324770a
+PASS [asset] assets/ui/space_cache_open.bgra 630436 bytes sha=dc5796aa4263
+PASS [asset] assets/ui/select_mode_button.bgra 561100 bytes sha=3d185b2c6120
+PASS [asset] assets/ui/space_coin_bar.bgra 331344 bytes sha=05d35e51403a
+PASS [asset] assets/ui/failed_endurance.bgra 6114504 bytes sha=d986d2ab3e50
+PASS [asset] assets/ui/global_button.bgra 400372 bytes sha=09b75129510c
+PASS [asset] assets/ui/endurance_mode_button.bgra 5586944 bytes sha=37add146bc5f
+PASS [asset] assets/ui/space_cache_button.bgra 422300 bytes sha=44a172388aa6
+PASS [asset] assets/ui/mode_survival_card.bgra 1425840 bytes sha=09c1f3d0bc7f
+PASS [asset] assets/ui/hud_network_top.bgra 854016 bytes sha=02d41cdfaf1f
+PASS [asset] assets/ui/hud_network_bottom.bgra 1492992 bytes sha=b03f3748a5e4
+PASS [asset] assets/ui/failed_normal.bgra 5594268 bytes sha=0676d3b18463
+PASS [asset] assets/ui/space_coin.bgra 162400 bytes sha=97f7669fe40a
+PASS [asset] assets/ui/cursor_control_logo.bgra 5040000 bytes sha=3b7528063de9
+PASS [asset] assets/ui/cursor_control_logo_hud.bgra 872960 bytes sha=91331eee9f4f
+PASS [asset] assets/ui/discord_logged_in_button.bgra 334776 bytes sha=139d1e958ec7
+PASS [asset] assets/ui/hud_circuit_texture.bgra 4952064 bytes sha=4053c0c920f3
+PASS [asset] assets/ui/survival_mode_button.bgra 5652480 bytes sha=e90a1a4691b7
+PASS [asset] assets/ui/hud_icon_time.bgra 16384 bytes sha=a2af55359360
+PASS [asset] assets/ui/local_button.bgra 405440 bytes sha=7740952fd750
+PASS [asset] assets/ui/space_cache_closed.bgra 495720 bytes sha=284f3b19d1a2
+PASS [asset] assets/ui/precision_mode_button.bgra 5586944 bytes sha=a91416a31ead
+PASS [asset] assets/ui/ui_base.bgra 6291456 bytes sha=f9fd4d8bd19e
+PASS [asset] assets/ui/hud_icon_streak.bgra 16384 bytes sha=c9990d727359
+PASS [asset] assets/ui/mode_endurance_card.bgra 1417248 bytes sha=d52e4a658de2
+PASS [asset] assets/ui/discord_login_button.bgra 351500 bytes sha=8283d1ed2d98
+PASS [asset] assets/ui/profile_button.bgra 396288 bytes sha=8a41eb2902fe
+PASS [asset] assets/ui/hud_icon_best.bgra 16384 bytes sha=842ace423395
+PASS [asset] assets/ui/support_dev_button.bgra 318636 bytes sha=83297e6c8b55
+PASS [asset] assets/ui/mode_precision_card.bgra 1461024 bytes sha=8124f551e396
+PASS [asset] assets/backgrounds/arena_scrolling_bg.bgra 1920000 bytes sha=ce70525173ee
+PASS [asset] assets/survival/powerup_repair.bgra 36864 bytes sha=9b49f28ac05e
+PASS [asset] assets/survival/background_2.bgra 3570944 bytes sha=da808fe243a2
+PASS [asset] assets/survival/station_heavy.bgra 262144 bytes sha=fab9974f1f15
+PASS [asset] assets/survival/powerup_shield.bgra 36864 bytes sha=31717cc5f944
+PASS [asset] assets/survival/background_0.bgra 3570944 bytes sha=2d9535aed1de
+PASS [asset] assets/survival/station_heavy_critical.bgra 262144 bytes sha=733e304c87c5
+PASS [asset] assets/survival/station_perfect.bgra 262144 bytes sha=00cc2e1effab
+PASS [asset] assets/survival/powerup_bomb.bgra 36864 bytes sha=601e768f9dee
+PASS [asset] assets/survival/powerup_slow.bgra 36864 bytes sha=8d3b51ad3bfa
+PASS [asset] assets/survival/station_damaged.bgra 262144 bytes sha=26d825ab511e
+PASS [asset] assets/survival/background_1.bgra 3570944 bytes sha=6ff65aec5dc5
+PASS [asset] assets/survival/powerup_chain.bgra 36864 bytes sha=27e97b7bb855
+PASS [asset] assets/textures/ship_5.bgra 2816 bytes sha=2d0826323780
+PASS [asset] assets/textures/ship_9.bgra 2816 bytes sha=ee5eb1c1d520
+PASS [asset] assets/textures/ship_6.bgra 2816 bytes sha=b720971370c3
+PASS [asset] assets/textures/ship_12.bgra 2816 bytes sha=2f568b91215c
+PASS [asset] assets/textures/ship_11.bgra 2816 bytes sha=4e5d1f44b048
+PASS [asset] assets/textures/powerup_shield.bgra 16384 bytes sha=4ca0589a3874
+PASS [asset] assets/textures/ship_1.bgra 2816 bytes sha=f0d88955b710
+PASS [asset] assets/textures/endurance_background.bgra 6284312 bytes sha=d5f8f403a45c
+PASS [asset] assets/textures/ufo_warning_overlay.bgra 1200000 bytes sha=25a819f7963a
+PASS [asset] assets/textures/hazard_orange.bgra 40960 bytes sha=8b986ef7741d
+PASS [asset] assets/textures/alien_boss.bgra 156000 bytes sha=0f382e89c013
+PASS [asset] assets/textures/powerup_key_q.bgra 4928 bytes sha=b505e5b1ab44
+PASS [asset] assets/textures/powerup_distance.bgra 16384 bytes sha=063674dbf11b
+PASS [asset] assets/textures/ship_2.bgra 2816 bytes sha=501a392a2cbe
+PASS [asset] assets/textures/rocket_cursor.bgra 2816 bytes sha=c560ab596970
+PASS [asset] assets/textures/ship_3.bgra 2816 bytes sha=8018618f6773
+PASS [asset] assets/textures/ship_4.bgra 2816 bytes sha=bc1cf1931702
+PASS [asset] assets/textures/alien_minion.bgra 24576 bytes sha=92381492e127
+PASS [asset] assets/textures/warp_portal_top.bgra 147456 bytes sha=5aa84dd71c9d
+PASS [asset] assets/textures/ship_8.bgra 2816 bytes sha=5c038febae1f
+PASS [asset] assets/textures/ship_10.bgra 2816 bytes sha=889ba0ca86ba
+PASS [asset] assets/textures/powerup_key_w.bgra 4928 bytes sha=4c8f99dab95c
+PASS [asset] assets/textures/powerup_slow.bgra 16384 bytes sha=9184db83dbc4
+PASS [asset] assets/textures/ship_7.bgra 2816 bytes sha=9e65b58e24da
+PASS [asset] assets/textures/hazard_blue.bgra 40960 bytes sha=8b986ef7741d
+PASS [asset] assets/survival/enemies/big_red_13.bgra 82944 bytes sha=c33ad28ee389
+PASS [asset] assets/survival/enemies/big_blue_03.bgra 82944 bytes sha=2c6173046714
+PASS [asset] assets/survival/enemies/big_red_01.bgra 82944 bytes sha=c1fbf02856bb
+PASS [asset] assets/survival/enemies/small_blue_13.bgra 36864 bytes sha=23dc42c707ea
+PASS [asset] assets/survival/enemies/small_red_03.bgra 36864 bytes sha=5246ef437deb
+PASS [asset] assets/survival/enemies/small_red_13.bgra 36864 bytes sha=28a63c5df335
+PASS [asset] assets/survival/enemies/big_red_12.bgra 82944 bytes sha=790c27da112c
+PASS [asset] assets/survival/enemies/small_red_02.bgra 36864 bytes sha=cba891f6e271
+PASS [asset] assets/survival/enemies/small_blue_00.bgra 36864 bytes sha=06db92be3d3d
+PASS [asset] assets/survival/enemies/small_blue_01.bgra 36864 bytes sha=972d192f4532
+PASS [asset] assets/survival/enemies/big_red_04.bgra 82944 bytes sha=ec7bf9586831
+PASS [asset] assets/survival/enemies/big_red_09.bgra 82944 bytes sha=3eb61918cc78
+PASS [asset] assets/survival/enemies/small_blue_08.bgra 36864 bytes sha=27f74a3c775d
+PASS [asset] assets/survival/enemies/small_red_12.bgra 36864 bytes sha=2c760dbae5e4
+PASS [asset] assets/survival/enemies/big_blue_09.bgra 82944 bytes sha=606d86aa4850
+PASS [asset] assets/survival/enemies/small_blue_09.bgra 36864 bytes sha=8745365120c4
+PASS [asset] assets/survival/enemies/small_blue_06.bgra 36864 bytes sha=be903f4bc776
+PASS [asset] assets/survival/enemies/small_red_04.bgra 36864 bytes sha=663afd74106e
+PASS [asset] assets/survival/enemies/small_red_10.bgra 36864 bytes sha=6ffceb5af396
+PASS [asset] assets/survival/enemies/big_red_14.bgra 82944 bytes sha=b8cdff18e718
+PASS [asset] assets/survival/enemies/big_red_11.bgra 82944 bytes sha=cdab940a213e
+PASS [asset] assets/survival/enemies/big_red_02.bgra 82944 bytes sha=32329249c765
+PASS [asset] assets/survival/enemies/small_blue_02.bgra 36864 bytes sha=d000dbb83190
+PASS [asset] assets/survival/enemies/big_red_06.bgra 82944 bytes sha=623ca54e939c
+PASS [asset] assets/survival/enemies/big_blue_13.bgra 82944 bytes sha=62dddfcb81cb
+PASS [asset] assets/survival/enemies/big_blue_14.bgra 82944 bytes sha=9ff4319b94e4
+PASS [asset] assets/survival/enemies/small_blue_03.bgra 36864 bytes sha=ea78c345e56f
+PASS [asset] assets/survival/enemies/big_red_05.bgra 82944 bytes sha=a98f0d70553a
+PASS [asset] assets/survival/enemies/big_blue_10.bgra 82944 bytes sha=65d8c151851d
+PASS [asset] assets/survival/enemies/small_blue_15.bgra 36864 bytes sha=b2e368f67359
+PASS [asset] assets/survival/enemies/small_red_07.bgra 36864 bytes sha=ef07ee5d8c90
+PASS [asset] assets/survival/enemies/big_blue_04.bgra 82944 bytes sha=dc256fb54538
+PASS [asset] assets/survival/enemies/big_blue_15.bgra 82944 bytes sha=3a71e0a89879
+PASS [asset] assets/survival/enemies/small_blue_11.bgra 36864 bytes sha=9f0e2a63d4dd
+PASS [asset] assets/survival/enemies/big_red_10.bgra 82944 bytes sha=78d87aaa437b
+PASS [asset] assets/survival/enemies/big_red_15.bgra 82944 bytes sha=a59415e2f864
+PASS [asset] assets/survival/enemies/small_red_06.bgra 36864 bytes sha=5fa69a344799
+PASS [asset] assets/survival/enemies/small_red_05.bgra 36864 bytes sha=e063c7a26115
+PASS [asset] assets/survival/enemies/small_red_14.bgra 36864 bytes sha=123601410339
+PASS [asset] assets/survival/enemies/small_red_11.bgra 36864 bytes sha=9d0b5850c8a4
+PASS [asset] assets/survival/enemies/big_red_00.bgra 82944 bytes sha=87efa62eca84
+PASS [asset] assets/survival/enemies/small_red_09.bgra 36864 bytes sha=efebe47b332d
+PASS [asset] assets/survival/enemies/small_red_15.bgra 36864 bytes sha=776cb90939ec
+PASS [asset] assets/survival/enemies/big_red_03.bgra 82944 bytes sha=8c5bcf0c7678
+PASS [asset] assets/survival/enemies/big_blue_05.bgra 82944 bytes sha=4b4859546b6d
+PASS [asset] assets/survival/enemies/big_blue_06.bgra 82944 bytes sha=a049aa3ce169
+PASS [asset] assets/survival/enemies/big_red_08.bgra 82944 bytes sha=ae2bd1ca1713
+PASS [asset] assets/survival/enemies/big_blue_01.bgra 82944 bytes sha=be7767f56916
+PASS [asset] assets/survival/enemies/small_blue_10.bgra 36864 bytes sha=2f8912f4f915
+PASS [asset] assets/survival/enemies/big_blue_00.bgra 82944 bytes sha=f0a7f10b9338
+PASS [asset] assets/survival/enemies/small_red_01.bgra 36864 bytes sha=cae802f93ad1
+PASS [asset] assets/survival/enemies/big_red_07.bgra 82944 bytes sha=17b66efe41a3
+PASS [asset] assets/survival/enemies/small_blue_05.bgra 36864 bytes sha=d24e2ad4dec5
+PASS [asset] assets/survival/enemies/big_blue_08.bgra 82944 bytes sha=ba07a933bcc9
+PASS [asset] assets/survival/enemies/big_blue_11.bgra 82944 bytes sha=b4423f654908
+PASS [asset] assets/survival/enemies/big_blue_07.bgra 82944 bytes sha=5ca2f6451d63
+PASS [asset] assets/survival/enemies/small_red_08.bgra 36864 bytes sha=c4c89099c8f2
+PASS [asset] assets/survival/enemies/big_blue_02.bgra 82944 bytes sha=b2a55edf253a
+PASS [asset] assets/survival/enemies/small_blue_14.bgra 36864 bytes sha=2362b3490657
+PASS [asset] assets/survival/enemies/small_blue_04.bgra 36864 bytes sha=d674695fcbb6
+PASS [asset] assets/survival/enemies/small_red_00.bgra 36864 bytes sha=ffe44c079caf
+PASS [asset] assets/survival/enemies/big_blue_12.bgra 82944 bytes sha=1c6c6e8644d0
+PASS [asset] assets/survival/enemies/small_blue_12.bgra 36864 bytes sha=5778540e0e53
+PASS [asset] assets/survival/enemies/small_blue_07.bgra 36864 bytes sha=2c19b38a30c1
+PASS [asset] assets/survival/boss1/sentinel_damaged.bgra 1048576 bytes sha=0da5ac289c65
+PASS [asset] assets/survival/boss1/background.bgra 3570944 bytes sha=a343d5c863d5
+PASS [asset] assets/survival/boss1/sentinel_normal.bgra 1048576 bytes sha=6850d156276a
+PASS [asset] assets/survival/boss1/sentinel_core_exposed.bgra 1048576 bytes sha=4cebcdee7a7a
+PASS [asset] assets/survival/boss2/head_open.bgra 112480 bytes sha=3b9f26c13b54
+PASS [asset] assets/survival/boss2/core_red.bgra 38800 bytes sha=d32870b6be3e
+PASS [asset] assets/survival/boss2/body_02.bgra 46500 bytes sha=065696927aa0
+PASS [asset] assets/survival/boss2/background.bgra 5586944 bytes sha=a9dfeb857fec
+PASS [asset] assets/survival/boss2/body_01.bgra 47304 bytes sha=55d7cdbcc26a
+PASS [asset] assets/survival/boss2/core_blue.bgra 34592 bytes sha=2e489bc2e7b1
+PASS [asset] assets/survival/boss2/head_closed.bgra 98500 bytes sha=4b677e730498
+PASS [asset] assets/survival/boss2/tail.bgra 44520 bytes sha=1bd618feb6bb
+PASS [asset] assets/survival/boss2/body_03.bgra 46980 bytes sha=df4bfe517441
+PASS [asset] assets/ranks/user_hq/bronze_ii.bgra 4194304 bytes sha=6f56e4de937b
+PASS [asset] assets/ranks/user_hq/gold_i.bgra 4194304 bytes sha=5dee42e13d79
+PASS [asset] assets/ranks/user_hq/platinum_ii.bgra 4194304 bytes sha=e12f019d7279
+PASS [asset] assets/ranks/user_hq/silver_i.bgra 4194304 bytes sha=205951c3a51c
+PASS [asset] assets/ranks/user_hq/diamond_iii.bgra 4194304 bytes sha=a209b1f18274
+PASS [asset] assets/ranks/user_hq/diamond_i.bgra 4194304 bytes sha=08e4c2ea1458
+PASS [asset] assets/ranks/user_hq/diamond_ii.bgra 4194304 bytes sha=2253359a837a
+PASS [asset] assets/ranks/user_hq/platinum_iii.bgra 4194304 bytes sha=92edde6a3a04
+PASS [asset] assets/ranks/user_hq/silver_ii.bgra 4194304 bytes sha=31a108aab51f
+PASS [asset] assets/ranks/user_hq/gold_ii.bgra 4194304 bytes sha=23c9c1ccbe71
+PASS [asset] assets/ranks/user_hq/bronze_iii.bgra 4194304 bytes sha=510bc1e90bba
+PASS [asset] assets/ranks/user_hq/silver_iii.bgra 4194304 bytes sha=9044fc6e5725
+PASS [asset] assets/ranks/user_hq/master_i.bgra 4194304 bytes sha=94832a968818
+PASS [asset] assets/ranks/user_hq/gold_iii.bgra 4194304 bytes sha=a90ae6f0be84
+PASS [asset] assets/ranks/user_hq/platinum_i.bgra 4194304 bytes sha=1042f97479f4
+PASS [asset] assets/ranks/user_hq/master_ii.bgra 4194304 bytes sha=995d4851deae
+PASS [asset] assets/ranks/user_hq/bronze_i.bgra 4194304 bytes sha=63d73509f6d0
+PASS [asset] assets/ranks/user_hq/master_iii.bgra 4194304 bytes sha=135fff17280c
+PASS [audio_ref] Among Us.mp3 referenced in Go source
+PASS [audio_probe] Among Us.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "1.985306"
+        }
+    ]
+}
+PASS [audio_decode] Among Us.mp3 pass 1 
+PASS [audio_decode] Among Us.mp3 pass 2 
+PASS [audio_ref] Fortnite.mp3 referenced in Go source
+PASS [audio_probe] Fortnite.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.783673"
+        }
+    ]
+}
+PASS [audio_decode] Fortnite.mp3 pass 1 
+PASS [audio_decode] Fortnite.mp3 pass 2 
+PASS [audio_ref] Minecraft.mp3 referenced in Go source
+PASS [audio_probe] Minecraft.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.391837"
+        }
+    ]
+}
+PASS [audio_decode] Minecraft.mp3 pass 1 
+PASS [audio_decode] Minecraft.mp3 pass 2 
+PASS [audio_ref] Roblox.mp3 referenced in Go source
+PASS [audio_probe] Roblox.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.365714"
+        }
+    ]
+}
+PASS [audio_decode] Roblox.mp3 pass 1 
+PASS [audio_decode] Roblox.mp3 pass 2 
+PASS [audio_ref] alien_charge_up.mp3 referenced in Go source
+PASS [audio_probe] alien_charge_up.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "4.884898"
+        }
+    ]
+}
+PASS [audio_decode] alien_charge_up.mp3 pass 1 
+PASS [audio_decode] alien_charge_up.mp3 pass 2 
+PASS [audio_ref] alien_impact_laser.mp3 referenced in Go source
+PASS [audio_probe] alien_impact_laser.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "5.720816"
+        }
+    ]
+}
+PASS [audio_decode] alien_impact_laser.mp3 pass 1 
+PASS [audio_decode] alien_impact_laser.mp3 pass 2 
+PASS [audio_ref] boss_click_effect.mp3 referenced in Go source
+PASS [audio_probe] boss_click_effect.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.809792"
+        }
+    ]
+}
+PASS [audio_decode] boss_click_effect.mp3 pass 1 
+PASS [audio_decode] boss_click_effect.mp3 pass 2 
+PASS [audio_ref] boss_nova.mp3 referenced in Go source
+PASS [audio_probe] boss_nova.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "90.122449"
+        }
+    ]
+}
+PASS [audio_decode] boss_nova.mp3 pass 1 
+PASS [audio_decode] boss_nova.mp3 pass 2 
+PASS [audio_ref] button_click.mp3 referenced in Go source
+PASS [audio_probe] button_click.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.626917"
+        }
+    ]
+}
+PASS [audio_decode] button_click.mp3 pass 1 
+PASS [audio_decode] button_click.mp3 pass 2 
+PASS [audio_ref] buzzer_loud.mp3 referenced in Go source
+PASS [audio_probe] buzzer_loud.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "5.041633"
+        }
+    ]
+}
+PASS [audio_decode] buzzer_loud.mp3 pass 1 
+PASS [audio_decode] buzzer_loud.mp3 pass 2 
+PASS [audio_ref] endurance_fail.mp3 referenced in Go source
+PASS [audio_probe] endurance_fail.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "4.832653"
+        }
+    ]
+}
+PASS [audio_decode] endurance_fail.mp3 pass 1 
+PASS [audio_decode] endurance_fail.mp3 pass 2 
+PASS [audio_ref] endurance_music.mp3 referenced in Go source
+PASS [audio_probe] endurance_music.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "93.727333"
+        }
+    ]
+}
+PASS [audio_decode] endurance_music.mp3 pass 1 
+PASS [audio_decode] endurance_music.mp3 pass 2 
+PASS [audio_ref] hit.wav referenced in Go source
+PASS [audio_probe] hit.wav {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "0.084989"
+        }
+    ]
+}
+PASS [audio_decode] hit.wav pass 1 
+PASS [audio_decode] hit.wav pass 2 
+PASS [audio_ref] levelup.wav referenced in Go source
+PASS [audio_probe] levelup.wav {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "0.720000"
+        }
+    ]
+}
+PASS [audio_decode] levelup.wav pass 1 
+PASS [audio_decode] levelup.wav pass 2 
+PASS [audio_ref] meteorite_explode.mp3 referenced in Go source
+PASS [audio_probe] meteorite_explode.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "2.742857"
+        }
+    ]
+}
+PASS [audio_decode] meteorite_explode.mp3 pass 1 
+PASS [audio_decode] meteorite_explode.mp3 pass 2 
+PASS [audio_ref] powerup_pickup.mp3 referenced in Go source
+PASS [audio_probe] powerup_pickup.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "0.809796"
+        }
+    ]
+}
+PASS [audio_decode] powerup_pickup.mp3 pass 1 
+PASS [audio_decode] powerup_pickup.mp3 pass 2 
+PASS [audio_ref] ready_go.mp3 referenced in Go source
+PASS [audio_probe] ready_go.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "4.884898"
+        }
+    ]
+}
+PASS [audio_decode] ready_go.mp3 pass 1 
+PASS [audio_decode] ready_go.mp3 pass 2 
+PASS [audio_ref] rechamber.wav referenced in Go source
+PASS [audio_probe] rechamber.wav {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "0.680000"
+        }
+    ]
+}
+PASS [audio_decode] rechamber.wav pass 1 
+PASS [audio_decode] rechamber.wav pass 2 
+PASS [audio_ref] rocket_sound.mp3 referenced in Go source
+PASS [audio_probe] rocket_sound.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "5.093878"
+        }
+    ]
+}
+PASS [audio_decode] rocket_sound.mp3 pass 1 
+PASS [audio_decode] rocket_sound.mp3 pass 2 
+PASS [audio_ref] shield_protect.mp3 referenced in Go source
+PASS [audio_probe] shield_protect.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "15.177143"
+        }
+    ]
+}
+PASS [audio_decode] shield_protect.mp3 pass 1 
+PASS [audio_decode] shield_protect.mp3 pass 2 
+PASS [audio_ref] space_cache_open.mp3 referenced in Go source
+PASS [audio_probe] space_cache_open.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "2.246531"
+        }
+    ]
+}
+PASS [audio_decode] space_cache_open.mp3 pass 1 
+PASS [audio_decode] space_cache_open.mp3 pass 2 
+PASS [audio_ref] survival_boss1_music.mp3 referenced in Go source
+PASS [audio_probe] survival_boss1_music.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "49.946083"
+        }
+    ]
+}
+PASS [audio_decode] survival_boss1_music.mp3 pass 1 
+PASS [audio_decode] survival_boss1_music.mp3 pass 2 
+PASS [audio_ref] survival_section_1.mp3 referenced in Go source
+PASS [audio_probe] survival_section_1.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "256.052208"
+        }
+    ]
+}
+PASS [audio_decode] survival_section_1.mp3 pass 1 
+PASS [audio_decode] survival_section_1.mp3 pass 2 
+PASS [audio_ref] survival_section_2.mp3 referenced in Go source
+PASS [audio_probe] survival_section_2.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "256.052208"
+        }
+    ]
+}
+PASS [audio_decode] survival_section_2.mp3 pass 1 
+PASS [audio_decode] survival_section_2.mp3 pass 2 
+PASS [audio_ref] survival_section_3.mp3 referenced in Go source
+PASS [audio_probe] survival_section_3.mp3 {
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "256.052208"
+        }
+    ]
+}
+PASS [audio_decode] survival_section_3.mp3 pass 1 
+PASS [audio_decode] survival_section_3.mp3 pass 2 
+PASS [button_asset] bug_report_button.bgra 100 stable reads; 334620 bytes
+PASS [button_wiring] bug_report_button.bgra quickBugReportRect, tally.so
+PASS [button_asset] discord_logged_in_button.bgra 100 stable reads; 334776 bytes
+PASS [button_wiring] discord_logged_in_button.bgra quickDiscordLoginRect, syncPlayerProfile
+PASS [button_asset] discord_login_button.bgra 100 stable reads; 351500 bytes
+PASS [button_wiring] discord_login_button.bgra quickDiscordLoginRect, beginDiscordLogin
+PASS [button_asset] endurance_mode_button.bgra 100 stable reads; 5586944 bytes
+PASS [button_wiring] endurance_mode_button.bgra modeSelectorCardRects, selectGameMode
+PASS [button_asset] garage_button.bgra 100 stable reads; 330880 bytes
+PASS [button_wiring] garage_button.bgra enduranceSpaceUIRects, OverlayGarage
+PASS [button_asset] global_button.bgra 100 stable reads; 400372 bytes
+PASS [button_wiring] global_button.bgra quickAccessRects, openGlobalLeaderboard
+PASS [button_asset] local_button.bgra 100 stable reads; 405440 bytes
+PASS [button_wiring] local_button.bgra quickAccessRects, openLeaderboard
+PASS [button_asset] precision_mode_button.bgra 100 stable reads; 5586944 bytes
+PASS [button_wiring] precision_mode_button.bgra modeSelectorCardRects, selectGameMode
+PASS [button_asset] profile_button.bgra 100 stable reads; 396288 bytes
+PASS [button_wiring] profile_button.bgra quickAccessRects, OverlayProfile
+PASS [button_asset] select_mode_button.bgra 100 stable reads; 561100 bytes
+PASS [button_wiring] select_mode_button.bgra enduranceModeButtonRect, modeSelectorOpen
+PASS [button_asset] space_cache_button.bgra 100 stable reads; 422300 bytes
+PASS [button_wiring] space_cache_button.bgra enduranceSpaceUIRects, beginSpaceCacheOpen
+PASS [button_asset] support_dev_button.bgra 100 stable reads; 318636 bytes
+PASS [button_wiring] support_dev_button.bgra quickSupportDevRect, paypal.me
+PASS [button_asset] survival_mode_button.bgra 100 stable reads; 5652480 bytes
+PASS [button_wiring] survival_mode_button.bgra modeSelectorCardRects, selectGameMode
+PASS [button_geometry] point_in_rect_250k inclusive boundary model
+PASS [ui] hud_layout_json keys=7
+PASS [language] british_english_player_strings []
+PASS [network] no_overlapping_profile_sync_goroutines []
+PASS [network] coalesced_sync_worker single buffered worker
+PASS [audio_runtime] playUIButtonClickSound asynchronous one-shot dispatch
+PASS [audio_runtime] playBossClickEffect asynchronous one-shot dispatch
+PASS [audio_runtime] playPowerupPickupSound asynchronous one-shot dispatch
+PASS [audio_runtime] playLevelUpSound asynchronous one-shot dispatch
+PASS [audio_runtime] playRechamberSound asynchronous one-shot dispatch
+PASS [audio_runtime] playWarpReadySound asynchronous one-shot dispatch
+PASS [audio_runtime] playWarpRocketSound asynchronous one-shot dispatch
+PASS [audio_runtime] playSpaceCacheSound asynchronous one-shot dispatch
+
+SUMMARY 341 / 341 PASS

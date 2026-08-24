@@ -1,0 +1,13 @@
+Cursor Control v274 QA Report
+
+Automated/static checks:
+- Windows amd64 compile: PASS
+- ESC menu map: Resume / Discord / Achievements / Settings / How To Play / Quit: PASS
+- Profile / Local Leaderboard / Global Leaderboard duplicates removed from ESC menu: PASS
+- Legacy orange training dropdown no longer rendered or clickable: PASS
+- Precision effectiveCourse always randomizes among the 5 course archetypes: PASS
+- Adaptive training forced off in normal player flow: PASS
+- Precision failure-sound selector invokes immediate audio preview: PASS
+- Existing HUD Profile / Local / Global quick access retained: PASS
+
+Runtime note: final visual spacing and actual speaker output should still be judged in the Windows build.

@@ -1,0 +1,11 @@
+CURSOR CONTROL v399 — TERMINUS PREMIUM POLISH
+
+- Rebuilt Boss 3 fleet background as a true-aspect seamless 1983x793 scrolling tile.
+- Terminus is larger/closer to the three-mechanic puzzle lane and retreats smoothly in visible stages.
+- Rebuilt hit circles, approach rings, slider rails, follow objects, timing dots and relay presentation.
+- Enlarged satellite art inside rhythm targets for readability.
+- Correct-object early clicks no longer feel like dropped input; live timing remains strict.
+- Slider/relay drag endpoints auto-complete cleanly when reached while held.
+- Three bottom cannons now use long readable telegraphs and much slower cadence.
+- Added lethal slowly-bobbing meteorites around the arena border, statistically kept clear of pattern lanes.
+- Tightened slider/hold spatial precision while retaining short grace against one-frame jitter.

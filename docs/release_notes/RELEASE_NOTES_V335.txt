@@ -1,0 +1,10 @@
+Cursor Control v335 — Global Profile Skin Gallery
+
+- Added dedicated Profile Skins editor opened by EDIT on the player's own Global Profile.
+- Gallery displays all 11 banner skins with EQUIPPED / UNLOCKED / LOCKED states and unlock requirements.
+- Unlocked skins equip on click; locked skins remain visible for progression goals.
+- Added Water, Thunder, Fire, Crystal, Earth, Sky, Space, Ocean, Node, Sentinel and Serpent skins.
+- All profile skins are normalized to 1124x174 and premultiplied BGRA for clean Win32 alpha rendering.
+- Equipped skin recolours the complete Global Profile UI to its matching palette.
+- Retired legacy Bronze/Silver/etc. outline profile frames; new skins use IDs 101..111.
+- Profile skin unlocks sync across devices through player-profile v6.

@@ -1,0 +1,25 @@
+Cursor Control v276 — Thruster Fire QA
+
+BUILD
+PASS — Windows amd64 executable compiled from v275 source baseline.
+
+ECONOMY
+PASS — 100,000 randomized purchase/equip simulations.
+PASS — balance never became negative.
+PASS — selected fire color was always owned.
+PASS — default Red is always available.
+
+RENDERER
+PASS — 7 fixed color palettes are created once with the Direct2D render target.
+PASS — Rainbow reuses cached palette brushes and does not allocate brushes per frame.
+PASS — d2dDrawEnduranceThrusters contains no Direct2D resource creation.
+
+PRICES
+Red: default/free
+Green: 200
+Blue: 200
+Pink: 200
+Purple: 200
+Gold: 500
+Silver: 500
+Rainbow: 1500

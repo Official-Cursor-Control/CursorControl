@@ -1,0 +1,7 @@
+Cursor Control v273 — Boss 2 Long Serpent
+
+- Void Serpent length increased from 24 to 48 articulated body segments.
+- Boss 2 now starts with the full chain pre-seeded behind the head, so the head can enter the arena while the body and tail are still trailing far offscreen.
+- Offscreen serpent pieces are render-culled outside a generous margin to preserve the longer boss scale without doubling GDI draw cost.
+- Existing broad-turn steering, node collision cutouts, scrolling Boss 2 background, and Boss 1-style transition/music handoff are retained.
+- History capacity doubled so the full longer body remains stable through curves and coils.

@@ -1,0 +1,26 @@
+Cursor Control v267 — Void Serpent movement cleanup QA
+
+Changes validated:
+- Active serpent chain reduced from 30 to 24 rendered body segments to lower per-frame GDI rotation/AlphaBlend cost.
+- Boss 2 source sprites pre-scaled for runtime use; source texture memory/render bandwidth reduced substantially.
+- Head steering response reduced from 3.8 to 2.25 for cleaner turns with less twitch.
+- Hunt/Sweep/Frenzy path frequencies reduced to remove high-frequency direction noise.
+- History sampling tightened from 3.0 px to 1.5 px for smoother articulated-follow positioning.
+- Node telegraph pulse slowed and reduced in amplitude.
+- Red/Blue node sprite alpha cleaned; faint low-alpha halo/noise removed.
+
+Stress checks performed:
+- Hunt movement: 500 runs x 900 simulated frames.
+- Sweep movement: 500 runs x 900 simulated frames.
+- Coil movement: 500 runs x 900 simulated frames.
+- Frenzy movement: 500 runs x 900 simulated frames.
+- Node hitbox: 5,000 randomized cases, 0 logical mismatches.
+- Red/blue button mapping: 2,000 cases.
+- Core approach safety: 1,000 cases.
+- Windows amd64 compilation: PASS.
+
+Observed simulation result:
+- All movement runs remained finite/stable.
+- Max simulated frame displacement stayed below 6.8 px under randomized 45–120 Hz update intervals.
+
+Live Windows playtest is still required for subjective feel/readability and actual GDI frame pacing.

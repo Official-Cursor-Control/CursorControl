@@ -1,0 +1,10 @@
+Cursor Control v372 — Categorized Scrollable Settings + Customization
+
+- Rebuilt Settings into four clearly separated groups: PERFORMANCE, AUDIO, CUSTOMIZATION, and GAMEPLAY & ACCESSIBILITY.
+- Added a contained vertical scrollbar with mouse-wheel, track-click, and thumb-drag support. Settings controls are only drawn as complete rows inside the viewport; buttons cannot overflow outside the scroll box.
+- Added HUD CORNER STYLE: Sharp/Angular, Compact, Rounded Sci-Fi, Heavy Industrial.
+- Added EXP BAR ANIMATION: Static, Subtle Pulse, Flowing Highlight.
+- Added BOSS HP BAR THEME: Boss-Specific, Red Plasma, Segmented Arcade, Clean Minimal.
+- Added BUTTON HOVER EFFECT: Brighten, Outline, Glow, Pulse.
+- Added SCREEN-SHAKE STRENGTH: Normal, Off, Low, High. Reduced Motion still overrides shake to zero.
+- Preserved the eight-font FONT OVERRIDE and all existing settings.

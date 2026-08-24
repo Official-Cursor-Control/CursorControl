@@ -1,0 +1,11 @@
+Cursor Control v376 — Void Energy / Global Profile Customization / Stability
+
+- Replaced the Void Serpent full-screen laser mechanic with six chaotic Void Energy balls fired from the serpent mouth into six horizontal lanes. Energy balls travel left, leave long lethal electric trails, and rows 2/5 are intercepted by randomized satellite debris; the struck satellite and energy ball both despawn.
+- Removed the old Void Serpent laser renderer. The mouth-core vulnerability sequence remains after each completed energy volley.
+- Fixed Endurance incorrectly applying the Precision 10-second timer gate when clicking a target.
+- Added quiet looping Survival 1 HP emergency siren; it stops immediately when HP changes, Survival ends, or gameplay is not active.
+- Restored the Cursor Control application icon and embed it in the Windows EXE for Explorer/app, title/system bar, and taskbar use.
+- Added rank-gated Global Profile customization: banners unlock at Global Platinum I, profile font + primary/secondary display-name colours at Global Diamond I, and public profile animations at Global Master I.
+- Global profile font selection overrides every text face inside that player's public Global Profile for viewers, independent of each viewer's local UI font preference.
+- Added persistent Supabase profile fields and server-side rank gates for the new customization selections.
+- Rebalanced non-boss banner challenges to moderate post-Platinum goals while keeping boss banner mastery requirements at 15 Sentinel / 10 Void Serpent / 10 Quantum Array defeats.

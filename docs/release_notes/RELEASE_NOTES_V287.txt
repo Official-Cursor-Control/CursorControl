@@ -1,0 +1,7 @@
+Cursor Control v287 — SHIP BODY HITBOX VISIBILITY
+
+- Endurance ship collision now uses one shared 18x10 body-only rectangle for every spaceship. Wings, fins, glow and sprite size are cosmetic and never affect collision.
+- Boundary, meteor, alien-boss and laser checks use the same body hitbox.
+- Added SETTINGS > SHIP HITBOX (ON/OFF) to display the live collision rectangle during Endurance gameplay.
+- The glow/pulse treatment remains limited to the final four rarest Garage planes; plane 12 keeps the strongest sparkle treatment.
+- Single centred thruster and enhanced Silver/Gold/Rainbow micro-particles retained from v286.

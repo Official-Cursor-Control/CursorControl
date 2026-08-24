@@ -1,0 +1,7 @@
+Cursor Control v336 — Global Profile Skin Fit Fix
+
+- Rebuilt all 11 profile banners from their original artwork without non-uniform whole-image stretching.
+- Generator canvas is removed first; artwork is scaled proportionally to the 174px identity height.
+- Only a quiet centre rail segment is extended to reach the exact 1124px width, preserving right-side artwork proportions and end-cap geometry.
+- Global Profile avatar/rank layout is now skin-safe: both remain inside the identity frame and no longer cover the profile skin perimeter.
+- Final runtime profile assets remain exactly 1124x174 premultiplied BGRA.

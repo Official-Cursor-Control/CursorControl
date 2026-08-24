@@ -1,0 +1,9 @@
+Cursor Control v317 — Player Profile / UI Polish
+
+- Player Profile is directly customisable: click player name to cycle unlocked name colours, title to cycle unlocked titles, avatar to cycle unlocked profile frames.
+- Remote/global profiles display equipped title, profile frame and name colour.
+- Global leaderboard parser supports selected_name_colour/name_colour/profile_name_colour returned by global-top20.
+- Current player's leaderboard name uses their equipped profile name colour.
+- Fixed Local and Global leaderboard vertical alignment by measuring table text with the same HUD font used to render it.
+- Achievement card titles and TITLE reward strings are width-clamped so they cannot leave their boxes.
+- Preserves v316 developer performance telemetry and gameplay behaviour.

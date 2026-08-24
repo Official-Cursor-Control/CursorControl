@@ -1,0 +1,7 @@
+Cursor Control v371 — Font Override Customisation
+
+- Added FONT OVERRIDE to Settings with eight deliberately distinct readable UI typefaces.
+- Choices: Lucida Console, Segoe UI, Bahnschrift, Georgia, Trebuchet MS, Comic Sans MS, Impact, Franklin Gothic Medium.
+- Font changes apply immediately without restarting the game and persist locally.
+- All alternatives reuse the original UI pixel heights to reduce overflow risk.
+- No external font files are bundled; Windows system fonts/fallback are used.

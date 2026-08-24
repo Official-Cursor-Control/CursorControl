@@ -1,0 +1,10 @@
+Cursor Control v277 — THRUSTER FIRE SIZE GARAGE
+
+- Added FIRE SIZE as a third Space Garage tab.
+- Small is free/default.
+- Medium costs 250 Space Coins.
+- Large costs 1000 Space Coins.
+- Purchased sizes persist locally and can be re-equipped without paying again.
+- Fire size multiplies both the normal Endurance thruster and the full Warp afterburner effect.
+- Small = 100%, Medium = 135%, Large = 175% of the coded thruster size.
+- Existing FIRE COLOR purchases and selections are unchanged.

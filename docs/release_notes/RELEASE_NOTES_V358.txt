@@ -1,0 +1,9 @@
+Cursor Control v358 — Survival Boss HP Bar
+
+- Adds a dedicated boss health/progress bar above the centre bottom HUD dock.
+- The bar is rendered outside the arena clipping region so it is actually visible below the playfield.
+- Sentinel: 66 required successful hits = 100% HP; every valid hit removes 1/66.
+- Void Serpent: 34 required core hits = 100% HP; every valid core hit removes 1/34.
+- Quantum Array: 18 encounter success units = 100% HP (12 sequence-node hits, 5 vector clears, 1 final tracking lock).
+- Removes numeric boss HP from the STATION HP top card; station hearts remain visible during bosses.
+- Keeps all v357 HUD/QoL/profile/announcement changes.

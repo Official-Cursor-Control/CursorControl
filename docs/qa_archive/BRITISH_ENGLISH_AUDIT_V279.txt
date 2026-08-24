@@ -1,0 +1,5 @@
+Cursor Control v279 — British English UI audit
+
+PASS — zero known US-English spellings found in player-facing quoted strings.
+Excluded: programming identifiers, API/JSON field names, comments and CSS properties.
+Checked British forms include COLOUR, CENTRE, METRES/KILOMETRES and DEFENCE.

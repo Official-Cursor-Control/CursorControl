@@ -1,0 +1,58 @@
+{
+  "iterations": 100000,
+  "unique_loop_violations": 0,
+  "path_bounds_violations": 0,
+  "ship_clearance_violations": 0,
+  "meteor_pattern_overlap_violations": 0,
+  "lane_width_px_p5_med_p95": [
+    621.8,
+    775.7,
+    929.4
+  ],
+  "ship_nose_gap_px_p5_med_p95": [
+    24.0,
+    24.0,
+    24.0
+  ],
+  "chain_speed_px_s_p5_med_p95": [
+    126.7,
+    207.7,
+    478.5
+  ],
+  "stream_speed_px_s_p5_med_p95": [
+    88.3,
+    169.6,
+    248.4
+  ],
+  "jump_speed_px_s_p5_med_p95": [
+    475.1,
+    479.7,
+    485.4
+  ],
+  "slider_speed_px_s_p5_med_p95": [
+    151.7,
+    199.7,
+    249.0
+  ],
+  "hit_radius_ref_px": 16,
+  "stream_radius_ref_px": 12,
+  "slider_corridor_ref_px": 12,
+  "hold_radius_ref_px": 12,
+  "turret_normal_warning_ms": 1500,
+  "turret_normal_lock_to_fire_ms": 450,
+  "turret_heavy_warning_ms": 1780,
+  "turret_heavy_lock_to_fire_ms": 530,
+  "turret_cadence_ms": [
+    3600,
+    3150,
+    2800,
+    2500
+  ],
+  "background_edge_mad": 0.0,
+  "background_edge_max": 0,
+  "background_dims": [
+    1983,
+    793
+  ],
+  "satellite_sprite_to_radius_ratio": 2.02
+}

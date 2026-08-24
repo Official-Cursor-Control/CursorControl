@@ -1,0 +1,15 @@
+Cursor Control v278 QA
+
+PASS — Windows amd64 source compiled successfully.
+PASS — fire colour unlock + selected colour are present in outbound player-profile sync payload.
+PASS — fire size unlock + selected size are present in outbound player-profile sync payload.
+PASS — cloud response merges fire-colour and fire-size unlock collections before accepting equipped selections.
+PASS — garage colour/size equip and purchase actions trigger cloud sync when signed in.
+PASS — achievement descriptions use bounded wrapped drawing inside the card content rectangle.
+PASS — selected title/name-colour/profile-frame are persisted in GameMeta and included in cloud sync payload.
+PASS — known player-facing US spelling scan found no remaining matches; CSS/API identifiers are intentionally excluded.
+PASS — local rank emblem reference size increased 88 -> 110 px (25%).
+PASS — global rank emblem reference size increased 130 -> 163 px (~25%).
+PASS — global profile display strips the legacy Discord #0 suffix.
+
+SERVER NOTE — Supabase schema/function deployment is still required. See SUPABASE_v278_PROFILE_COSMETICS.sql and SUPABASE_v278_PLAYER_PROFILE_CONTRACT.md.

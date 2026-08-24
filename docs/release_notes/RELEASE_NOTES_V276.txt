@@ -1,0 +1,12 @@
+Cursor Control v276 — THRUSTER FIRE GARAGE
+
+- Added a THRUSTER FIRE tab to the Space Garage.
+- Red is unlocked by default.
+- Green, Blue, Pink, Purple: 200 Space Coins each.
+- Gold, Silver: 500 Space Coins each.
+- Rainbow: 1500 Space Coins.
+- Purchased colors persist locally and can be equipped at any time.
+- The Endurance ship's coded exhaust uses the selected color.
+- Rainbow continuously cycles the exhaust palette using cached Direct2D brushes.
+- No new per-frame brush/resource creation was added to the gameplay renderer.
+- Existing spaceship garage and all previous v275 features retained.

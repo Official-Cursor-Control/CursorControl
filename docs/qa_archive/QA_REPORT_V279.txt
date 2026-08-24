@@ -1,0 +1,16 @@
+Cursor Control v279 QA
+
+PASS — Windows amd64 compiled successfully using Windows GUI subsystem (no console window).
+PASS — 100,000 random Garage purchase/equip simulations; balances never negative and selections always owned.
+PASS — Gold fire cost is 750 coins and display order places Silver immediately before Gold without remapping persisted IDs.
+PASS — insufficient-funds Garage message is exact requested copy, yellow, with a 2-second timer.
+PASS — 100,000 cosmetic cloud-union simulations preserved every local/cloud unlock.
+PASS — fire colour + fire size unlocked/equipped fields are in the outbound/inbound cloud profile contract.
+PASS — title/name-colour/profile-frame unlock collections and equipped selections are in the cloud contract.
+PASS — eight profile frame states are implemented, including Void Serpent and Perfection prestige frames.
+PASS — Void Serpent clear achievement grants VOID SLAYER and the Void Serpent profile frame.
+PASS — global profile displays selected title, name colour and profile frame; #0 suffix stripping retained.
+PASS — local/global rank emblem enlargement retained.
+PASS — player-facing quoted-string British-English scan found zero known US-English matches (CSS/programming identifiers excluded).
+
+SERVER NOTE — run SUPABASE_v279_PROFILE_COSMETICS.sql and redeploy player-profile using SUPABASE_v279_PLAYER_PROFILE_CONTRACT.md for cross-device sync to become live.

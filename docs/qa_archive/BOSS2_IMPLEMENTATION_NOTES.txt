@@ -1,0 +1,5 @@
+Boss 2 source added in survival_boss2.go.
+Production wave trigger: after Wave 20 clears.
+Developer shortcut: /SBoss 2.
+Assets expected under assets/survival/boss2/.
+The source art faces left; the renderer rotates the articulated chain to the current tangent.

@@ -1,0 +1,11 @@
+Cursor Control v377 — Global Profile Customisation Ladder
+
+- Rebuilt Global Profile customisation into four rank tiers: Gold I profile-wide font, Platinum I banners, Diamond I Advanced Names, Master I animations.
+- Added 12 user-supplied Advanced Name styles as rasterised runtime glyph atlases; raw font files are not distributed.
+- Advanced Names now support Primary and Secondary colours, expanded to 12 choices including Black, White and Purple.
+- Added Drop Shadow ON/OFF, selectable Shadow Colour, and Horizontal/Vertical gradient direction.
+- Advanced Name fonts affect display name only; Gold I profile font continues to affect every other public Global Profile text face.
+- Banner gallery is now hard-clipped inside a dedicated scroll viewport with a visible scrollbar; banners can no longer render or receive clicks outside it.
+- Reduced non-boss banner challenges to moderate post-Platinum goals while preserving boss mastery requirements.
+- Supabase player-profile v9 enforces all rank gates server-side and syncs Advanced Name settings across devices.
+- Preserved the v376 Endurance timer fix, Void energy-ball fight, app/taskbar icon, and 1 HP Survival siren.

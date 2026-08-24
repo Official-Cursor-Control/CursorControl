@@ -1,0 +1,44 @@
+{
+  "mode_switch": {
+    "left": 254,
+    "top": 14,
+    "right": 554,
+    "bottom": 110
+  },
+  "space_cache": {
+    "left": 677,
+    "top": 736,
+    "right": 853,
+    "bottom": 796
+  },
+  "garage": {
+    "left": 866,
+    "top": 736,
+    "right": 1053,
+    "bottom": 796
+  },
+  "profile": {
+    "left": 1399,
+    "top": 927,
+    "right": 1533,
+    "bottom": 1006
+  },
+  "local": {
+    "left": 1396,
+    "top": 782,
+    "right": 1534,
+    "bottom": 860
+  },
+  "global": {
+    "left": 1400,
+    "top": 852,
+    "right": 1534,
+    "bottom": 930
+  },
+  "discord": {
+    "left": 1105,
+    "top": 956,
+    "right": 1347,
+    "bottom": 998
+  }
+}

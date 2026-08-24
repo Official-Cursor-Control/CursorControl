@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-08-16T09:43:51Z",
+  "runtime": "/mnt/data/CursorControl_v300_RUNTIME_CONSOLIDATION",
+  "source": "/mnt/data/CursorControl_v309_SOURCE_BOSS_FLOW_HUD",
+  "passed": 369,
+  "total": 377,
+  "failed": [
+    {
+      "group": "audio_runtime",
+      "name": "playUIButtonClickSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playBossClickEffect",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playPowerupPickupSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playLevelUpSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playRechamberSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playWarpReadySound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playWarpRocketSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    },
+    {
+      "group": "audio_runtime",
+      "name": "playSpaceCacheSound",
+      "ok": false,
+      "detail": "asynchronous one-shot dispatch"
+    }
+  ],
+  "groups": {
+    "packaging": {
+      "passed": 3,
+      "total": 3
+    },
+    "source": {
+      "passed": 6,
+      "total": 6
+    },
+    "assets": {
+      "passed": 1,
+      "total": 1
+    },
+    "asset": {
+      "passed": 204,
+      "total": 204
+    },
+    "audio_ref": {
+      "passed": 31,
+      "total": 31
+    },
+    "audio_probe": {
+      "passed": 31,
+      "total": 31
+    },
+    "audio_decode": {
+      "passed": 62,
+      "total": 62
+    },
+    "button_asset": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_wiring": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_geometry": {
+      "passed": 1,
+      "total": 1
+    },
+    "ui": {
+      "passed": 1,
+      "total": 1
+    },
+    "language": {
+      "passed": 1,
+      "total": 1
+    },
+    "network": {
+      "passed": 2,
+      "total": 2
+    },
+    "audio_runtime": {
+      "passed": 0,
+      "total": 8
+    }
+  }
+}

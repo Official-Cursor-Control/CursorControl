@@ -1,0 +1,8 @@
+Cursor Control v342
+- Achievements now use four player-facing difficulties only: Easy (blue), Medium (orange), Expert (red), Legendary (purple).
+- Achievement sorting is difficulty first, then alphabetical within each difficulty.
+- Completed achievements retain their difficulty colour and show COMPLETED as their state.
+- Global Profile showcase cards display raised title, description, and difficulty label/colour.
+- Local Profile is view-only; direct local customization/showcase cycling removed.
+- Removed local profile customization helper text.
+- Centered GLOBAL PROFILE button label.

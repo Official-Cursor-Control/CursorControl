@@ -1,0 +1,15 @@
+Cursor Control v300 — CONSOLIDATION / ENDURANCE POLISH
+
+- Consolidation milestone based on v287 with gameplay systems retained and cleaned up.
+- All 12 Endurance ships remain cosmetic skins using the same 18x10 main-body collision rectangle.
+- Ship wings, fins, glow, sparkle and sprite silhouette never alter collision fairness.
+- SETTINGS > SHIP HITBOX continues to display the exact live collision rectangle.
+- Single centred rear thruster retained for every ship; no legacy dual-exhaust path remains.
+- Silver, Gold and Rainbow exhausts now emit a denser deterministic micro-particle trail without allocating particle objects in the render hot path.
+- Only the final four Garage ships receive rarity glow. Their glow/sparkle intensity now increases progressively from plane 9 through plane 12, with plane 12 receiving the strongest treatment.
+- Space Garage ship cards now use rarity-coloured borders and explicitly state that ships are cosmetic with a shared hitbox.
+- Endurance transient slices are cleared while retaining allocated capacity, reducing avoidable reallocation during long runs, warp transitions and repeated encounters.
+- Polish VFX now pre-allocates its small fixed working buffer.
+- Alien UFO boss encounters now return as long-run milestones rather than occurring only once. Repeats are spaced roughly 2050-2500 physical metres apart and keep a 120m recovery window.
+- Repeated UFO encounters scale conservatively: slightly shorter aim/entry timings and slightly longer beam holds, capped to preserve readable telegraphs.
+- Runtime package is clean: executable at root with only assets/ and data/ directories; QA/release/development files remain in Source only.

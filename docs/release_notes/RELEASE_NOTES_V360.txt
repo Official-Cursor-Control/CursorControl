@@ -1,0 +1,5 @@
+Cursor Control v360
+- Boss HP bar width now exactly matches the centre-bottom HUD card (478..1022 design coordinates).
+- Boss HP decreases from exact successful-hit counts and flashes red for 220 ms on each new hit.
+- Boss HP bar is a clean bar-only display and resets tracking between boss encounters.
+- LOCAL/GLOBAL EXP toggle moved inside the EXP Rank panel on the EXP-left row for improved visibility.

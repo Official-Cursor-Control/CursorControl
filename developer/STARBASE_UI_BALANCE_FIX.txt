@@ -1,0 +1,7 @@
+Starbase UI / cloud balance fix
+- Facilities hub explicitly ordered by progression requirement.
+- Telemetry value font reduced to keep labels unobstructed.
+- Moon placement tweaks: flag +25px down; Cursor Core -20px X; Scout Pad -10px X/+5px Y.
+- FACILITIES/GUIDE/SYSTEMS close when clicking outside their modal, without footer text.
+- Client heartbeat never rewinds the live Starbit balance due to a stale response.
+- Supabase afk-sync protocol v3 deployed: current-rate active accrual, small heartbeat skew allowance, one-time bounded v3 stale-balance recovery.

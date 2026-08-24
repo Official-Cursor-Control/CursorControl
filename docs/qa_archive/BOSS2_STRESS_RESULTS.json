@@ -1,0 +1,46 @@
+{
+  "phase_2": {
+    "runs": 500,
+    "finite": true,
+    "max_frame_step": 14.15,
+    "mean_spacing_error": 0.19,
+    "p99_spacing_error": 2.998,
+    "max_segments": 30
+  },
+  "phase_3": {
+    "runs": 500,
+    "finite": true,
+    "max_frame_step": 15.28,
+    "mean_spacing_error": 0.143,
+    "p99_spacing_error": 1.221,
+    "max_segments": 30
+  },
+  "phase_4": {
+    "runs": 500,
+    "finite": true,
+    "max_frame_step": 14.16,
+    "mean_spacing_error": 0.061,
+    "p99_spacing_error": 0.099,
+    "max_segments": 30
+  },
+  "phase_5": {
+    "runs": 500,
+    "finite": true,
+    "max_frame_step": 18.07,
+    "mean_spacing_error": 0.246,
+    "p99_spacing_error": 4.931,
+    "max_segments": 30
+  },
+  "node_hitbox": {
+    "cases": 5000,
+    "failures": 0
+  },
+  "button_mapping": {
+    "cases": 2000,
+    "failures": 0
+  },
+  "core_approach_safety": {
+    "cases": 1000,
+    "pass": true
+  }
+}

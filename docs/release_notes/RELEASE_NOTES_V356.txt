@@ -1,0 +1,7 @@
+Cursor Control v356 — Quick Mode Select / Banner / Live Rail QoL
+
+- OCEAN and SENTINEL profile banners now use the same full 1124x174 artwork footprint as WATER/EARTH.
+- SELECT MODE remains clickable while front-end tabs/overlays are open; opening it closes the current tab and shows the mode chooser.
+- Choosing a mode closes all front-end UI and returns directly to that mode's waiting screen.
+- GLOBAL LIVE announcements now launch every 10 seconds while each message travels for 15 seconds, so the next message enters before the previous one has left the rail.
+- Includes all v355 and earlier fixes, including the Survival section-report boss-music stop.

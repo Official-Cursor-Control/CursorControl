@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-08-22T06:19:34Z",
+  "runtime": "/mnt/data/work_v448/runtime",
+  "source": "/mnt/data/work_v448/CursorControl_v448_SOURCE",
+  "passed": 816,
+  "total": 816,
+  "failed": [],
+  "groups": {
+    "packaging": {
+      "passed": 3,
+      "total": 3
+    },
+    "source": {
+      "passed": 6,
+      "total": 6
+    },
+    "assets": {
+      "passed": 1,
+      "total": 1
+    },
+    "asset": {
+      "passed": 475,
+      "total": 475
+    },
+    "audio_ref": {
+      "passed": 73,
+      "total": 73
+    },
+    "audio_probe": {
+      "passed": 73,
+      "total": 73
+    },
+    "audio_decode": {
+      "passed": 146,
+      "total": 146
+    },
+    "button_asset": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_wiring": {
+      "passed": 13,
+      "total": 13
+    },
+    "button_geometry": {
+      "passed": 1,
+      "total": 1
+    },
+    "ui": {
+      "passed": 1,
+      "total": 1
+    },
+    "language": {
+      "passed": 1,
+      "total": 1
+    },
+    "network": {
+      "passed": 2,
+      "total": 2
+    },
+    "audio_runtime": {
+      "passed": 8,
+      "total": 8
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "hunt": {
+    "runs": 600,
+    "frames": 600000,
+    "worst_frame_turn_deg": 1.064,
+    "minimum_turn_radius_px": 282.38
+  },
+  "sweep": {
+    "runs": 600,
+    "frames": 600000,
+    "worst_frame_turn_deg": 1.064,
+    "minimum_turn_radius_px": 282.16
+  },
+  "coil": {
+    "runs": 600,
+    "frames": 600000,
+    "worst_frame_turn_deg": 1.2,
+    "minimum_turn_radius_px": 250.06
+  },
+  "frenzy": {
+    "runs": 600,
+    "frames": 600000,
+    "worst_frame_turn_deg": 1.31,
+    "minimum_turn_radius_px": 229.22
+  },
+  "final": {
+    "runs": 600,
+    "frames": 600000,
+    "worst_frame_turn_deg": 1.31,
+    "minimum_turn_radius_px": 229.25
+  },
+  "node_clickable_disk": {
+    "cases": 50000,
+    "failures": 0,
+    "click_radius": 38,
+    "safe_radius": 64
+  },
+  "node_three_segment_gap": {
+    "cases": 50000,
+    "failures": 0,
+    "nearest_live_body_min_distance": 88.05,
+    "live_body_radius": 32
+  },
+  "render_sizes": {
+    "body": "116x67",
+    "head": "188x130",
+    "tail": "172x50",
+    "node": "68x68",
+    "segment_spacing": 63
+  }
+}

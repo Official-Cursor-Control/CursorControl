@@ -1,0 +1,8 @@
+Cursor Control v359
+- Fixed Survival boss HP bar visibility and positioned it above the centre HUD.
+- Survival defence panel becomes a themed, centred boss description card during boss phases.
+- Survival warning banners now size themselves from the actual message text and move side caps with the box.
+- Void Serpent core rectangle is spawn-only; cores stay locked to their original serpent segment after spawning.
+- Survival EXP rewards reduced by 50% (score EXP and boss bonuses).
+- Precision default buzzer audio trimmed to one playback in WAV/MP3 assets.
+- Added LOCAL/GLOBAL EXP rank toggle above the EXP panel; panel title now identifies LOCAL or GLOBAL EXP RANK.

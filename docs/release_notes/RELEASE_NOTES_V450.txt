@@ -1,0 +1,6 @@
+Cursor Control v450
+
+- Reworked the KongGames boot intro with authored boss-intro-style corruption bursts: RGB separation, horizontal frame tears, scan bands, sync flashes, and short stutters.
+- Replaced the previous KongGames wordmark moment with a cleaner no-box reveal and a raised copyright mark (©).
+- Preserved the existing technical construction opening and original intro timing/audio.
+- Updated the non-video fallback intro so it also carries the copyright mark and boss-style scan/tear treatment.

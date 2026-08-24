@@ -1,0 +1,9 @@
+CURSOR CONTROL v465
+
+STARBASE // SHIP MODULE ART / LABEL CORRECTION
+- Ship Module card names are now bound directly to their authored sprite filenames, so artwork and visible names cannot drift apart.
+- Restores the intended labels across all 72 pieces, including COLLECTOR RING, HYDRO HULL, LOUNGE HABITAT, ARCADE CABINET, EXTRACTOR BASE, VOID PORTAL, DEFENCE PLATFORM, and the rest of the 9 x 8 module grid.
+- Ship Module sprites render smaller and are capped at native crop size instead of being enlarged to fill their cards, preserving sharper pixel-art quality.
+- Removed the subtitle directly under the SHIP MODULES heading.
+- Craft-button labels use the same sprite-bound names as the item cards.
+- Save indices, recipes, crafted progress, set bonuses, and material inventories are unchanged.

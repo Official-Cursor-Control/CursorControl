@@ -1,0 +1,13 @@
+{
+  "runs": 1000,
+  "frames_per_run": 1200,
+  "movement_frames": 1200000,
+  "segment_count": 48,
+  "approx_length_px": 3024.0,
+  "finite": true,
+  "min_turn_radius_px_approx": 244.95,
+  "node_safe_trials": 200000,
+  "node_safe_failures": 0,
+  "offscreen_node_trials": 200000,
+  "offscreen_forced_miss_failures": 0
+}

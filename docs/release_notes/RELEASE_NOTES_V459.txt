@@ -1,0 +1,8 @@
+CURSOR CONTROL v459
+
+STARBASE // SHIP MODULE ART PASS
+- Added all 72 supplied Ship Module sprites (9 sets x 8 pieces).
+- Mapped sprites directly to the existing module collection in set/item order.
+- Crafted modules render at full colour; uncrafted modules retain their actual art in a dim locked state.
+- Generic placeholder glyph remains only as a missing-asset fallback.
+- No module recipes, bonuses, progression gates, or save data were changed.

@@ -1,0 +1,6 @@
+Cursor Control v373 — Settings Vertical Centering
+
+- Moved the entire categorized Settings panel downward on the Y axis so it is visually centered in the game window.
+- The panel frame, title, scroll viewport, scrollbar, buttons, sliders and back hint all move together.
+- Added a bottom-safe clamp so the menu cannot be pushed off-screen on smaller resolutions.
+- No settings behaviour or customization values were changed from v372.

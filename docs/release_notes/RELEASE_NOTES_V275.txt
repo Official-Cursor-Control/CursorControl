@@ -1,0 +1,5 @@
+Cursor Control v275
+- Removed the legacy orange MENU button from Survival HUD.
+- Removed the legacy dropdown renderer from Survival.
+- Survival now uses ESC menu only for menu/settings/account navigation.
+- Precision/Endurance HUD behavior otherwise unchanged.

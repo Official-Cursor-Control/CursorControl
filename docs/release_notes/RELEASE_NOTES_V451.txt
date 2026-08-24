@@ -1,0 +1,7 @@
+Cursor Control v451
+
+- Rebuilt the KongGames startup around the new vertical K / O / N / G publisher mark.
+- K, O, N and G construct down the centre of the same dark technical/HUD field instead of resolving into the old abstract stacked glyph.
+- Added boss-intro-style RGB separation, horizontal signal tears, scan bands, hard blackout stutters and sync flashes at authored impact points.
+- Removed the separate boxed/grey KongGames presentation. "KongGames ©" now appears as a small integrated publisher lockup beneath the vertical mark.
+- Preserved the existing 3.6-second intro timing and exact v450 audio track.

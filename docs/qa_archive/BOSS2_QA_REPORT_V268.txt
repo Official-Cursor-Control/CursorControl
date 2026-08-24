@@ -1,0 +1,34 @@
+Cursor Control v268 — Void Serpent Boss 2 QA
+
+Changes under test
+- Node host body segment becomes non-collidable for the full node lifetime.
+- Node host body segment is also not rendered, creating a visible attack gap.
+- Entire red/blue node circle is guaranteed safe from adjacent body collisions.
+- Blue-node telegraph/active lifetime forces Head Open; head closes immediately when node clears.
+- Serpent scale increased: body 90x52 logical px, head 145x100, tail 138x41.
+- Segment spacing increased to 54 px and collision radii retuned for the larger boss.
+- Boss difficulty increased: 20 hits, tighter node windows, more frequent lunges from Phase 1 onward, faster late phases, farther-node preference, shorter post-hit cadence.
+- Boss 2 now uses Boss 1's full-black wave transition and MCI boss-music handoff system on entry and exit.
+
+Automated stress passes
+Movement/pathing:
+- Hunt: 500 x 900-frame randomized-timestep simulations; 0 non-finite runs; max simulated frame step 6.33 px.
+- Sweep: 500 x 900-frame randomized-timestep simulations; 0 non-finite runs; max simulated frame step 6.37 px.
+- Coil: 500 x 900-frame randomized-timestep simulations; 0 non-finite runs; max simulated frame step 6.35 px.
+- Frenzy: 500 x 900-frame randomized-timestep simulations; 0 non-finite runs; max simulated frame step 7.07 px.
+- Final: 500 x 900-frame randomized-timestep simulations; 0 non-finite runs; max simulated frame step 7.07 px.
+
+Node interaction:
+- 20,000 randomized points inside node hit circles; 0 safe-pocket failures, 0 click-radius mismatches.
+- 10,000 node lifecycle checks; 0 host-null errors, 0 blue-mouth-state errors.
+
+Transitions/audio state:
+- 1,000 jittered-timestep complete entry/exit transition sequences; 1,000 passed.
+
+Build verification
+- Windows amd64 source compiled successfully after all changes.
+
+Manual Windows verification still required
+- Perceived difficulty and readability at native mouse speed.
+- GDI sprite overlap appearance on tight serpent bends.
+- MCI music fade behavior on the target Windows machine.

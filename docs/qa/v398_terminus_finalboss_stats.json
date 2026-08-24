@@ -1,0 +1,48 @@
+{
+  "iterations": 100000,
+  "unique_loop_violations": 0,
+  "path_bounds_violations": 0,
+  "ship_clearance_violations": 0,
+  "lane_width_px_p5_med_p95": [
+    673.5,
+    806.4,
+    938.1
+  ],
+  "chain_speed_px_s_p5_med_p95": [
+    129.7,
+    208.0,
+    480.9
+  ],
+  "stream_speed_px_s_p5_med_p95": [
+    96.1,
+    178.0,
+    259.1
+  ],
+  "jump_speed_px_s_p5_med_p95": [
+    512.8,
+    517.4,
+    522.8
+  ],
+  "slider_speed_px_s_p5_med_p95": [
+    163.6,
+    206.7,
+    252.1
+  ],
+  "hit_radius_ref_px": 18,
+  "stream_radius_ref_px": 14,
+  "slider_corridor_ref_px": 14,
+  "hold_radius_ref_px": 15,
+  "turret_warning_ms": 610,
+  "turret_lock_to_fire_ms": 220,
+  "turret_beam_ms": 330,
+  "turret_cadence_ms": [
+    1050,
+    900,
+    800,
+    720
+  ],
+  "background_edge_mad": 0.0,
+  "background_edge_max": 0,
+  "background_mirror_join_mad": 0.0,
+  "background_mirror_join_max": 0
+}

@@ -1,0 +1,20 @@
+CURSOR CONTROL — DEVELOPER / ADMIN QUICK COMMANDS
+
+/SBoss 1             Start Survival Boss 1
+/SBoss 2             Start Survival Boss 2 — The Void Serpent
+/SBoss 3             Jump directly to Wave 31 // Boss 3 // The Terminus 1337
+/SSection 1          Start Survival Section 1
+/SSection 2          Start Survival Section 2
+/SSection 3          Start Survival Section 3
+/GodMode On|Off      Toggle developer god mode
+/Perf On|Off|Reset|Save   Performance diagnostics
+/Diag                 Diagnostics
+/SelfTest             Core self-test
+/DeepAudit            Deep audit
+/FrameAudit           Frame audit
+/StateAudit           State audit
+/LeakAudit Start|Check
+
+Boss 2 QA: /SBoss 2 starts the production transition into The Void Serpent.
+
+/Perf Save - Write an on-demand performance snapshot to run_performance.log.

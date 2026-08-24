@@ -1,0 +1,11 @@
+Cursor Control v278 — British English UI audit
+
+PASS — player-facing COLOR changed to COLOUR.
+PASS — player-facing CENTER changed to CENTRE.
+PASS — player-facing METERS changed to METRES.
+PASS — Survival already uses DEFENCE in achievement copy.
+PASS — known US-spelling scan found no remaining player-facing matches.
+
+Excluded from language checking: programming identifiers, JSON/API field names, CSS syntax and third-party protocol names.
+
+Remaining non-UI scan matches: 0

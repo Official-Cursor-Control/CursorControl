@@ -1,0 +1,15 @@
+Cursor Control v442 — Starbase overhaul
+
+- Operators now earn role-specific Service XP but never level automatically. A ready Operator must be physically clicked to level up.
+- Operator recruitment is tied to the physical facility that specialist serves.
+- Operator level/recruit celebrations share one global queue, preventing overlapping voice quips and colour-fill animations.
+- New separated Operator companion assets: Nova/Vega/Astra pets hover, Byte and her flying chair hover, Byte's companion floats independently, Flux's hover pet bobs, and Flux's floor spider patrols left/right. Locked Operators remain static with no pets.
+- Operator ready-to-level cards receive a much clearer visual emphasis.
+- Starbase Guide rebuilt to six pages with exactly three large explanation cards per page, including progression, facilities, Operators, expeditions/materials, Pilot Network, and late-game economy.
+- Singularity now rests at 90% of its former size and expands back to 100% on pre-analysed snare backbeats from starbase_theme.mp3. Kick drums do not drive the pulse.
+- Facility floor placement rings removed; building ground heights are staggered for a more natural settlement layout.
+- Starbase logo greatly enlarged, Singularity Network subtitle reduced and both moved lower in the header.
+- Module detail footer gives more width to the material requirement field.
+- Clicking blank space in the Facilities screen dismisses the facility drawer.
+- Starbase Back now returns directly to Precision Mode.
+- Existing v441 polish retained: expedition-return notification, Pilot Network opening on Sharper Cursors, physical facility requirements for relevant Pilot skills, new Pilot Network background, click-outside modal close behaviour, and explicit module material sources.

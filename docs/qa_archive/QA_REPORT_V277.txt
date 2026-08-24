@@ -1,0 +1,16 @@
+Cursor Control v277 QA — Thruster Fire Size
+
+PASS — Windows amd64 source compiled successfully.
+PASS — 100,000 randomized purchase/equip simulations completed.
+PASS — coin balances never went negative.
+PASS — selected fire size was always owned.
+PASS — Small remains free/default for existing saves.
+PASS — Medium purchase cost = 250 Space Coins.
+PASS — Large purchase cost = 1000 Space Coins.
+PASS — selected size persists through GameMeta JSON fields.
+PASS — whole procedural flame is scaled, including outer length, flame thickness and nozzle flare.
+PASS — Warp extension is multiplied by selected size rather than staying at Small-size dimensions.
+      Small Warp length contribution: 27.00 px
+      Medium Warp length contribution: 36.45 px
+      Large Warp length contribution: 47.25 px
+PASS — no new per-frame textures, particles, brushes or allocations were introduced.
