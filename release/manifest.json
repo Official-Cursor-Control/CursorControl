@@ -10,7 +10,7 @@
       "title": "Full stability and persistence hardening",
       "details": "Thread-safe cloud/profile state application, safer atomic saves, proper Windows GUI build and embedded Cursor Control icon."
     },
-    {ccf
+    {
       "version": "v461",
       "title": "Ship materials and Expedition rewards",
       "details": "Added the six Ship Module material sprites and redesigned Space Expedition completion rewards with clear icons and quantities."
