@@ -1,16 +1,16 @@
 {
-  "version": "v462",
-  "package_url": "https://github.com/Official-Cursor-Control/CursorControl/releases/download/v462/CursorControl_v462_RUNTIME.zip",
-  "package_sha256": "9fcbc36038ceb2716d8160eb283f1a7924cb271cd716795a2439563f7f82d017",
-  "game_exe_sha256": "5056a019ed770995dd206ee554490c2c623993e7af09aeb8d1a4df74ed8fc219",
-  "package_bytes": 195336733,
+  "version": "v465",
+  "package_url": "https://github.com/Official-Cursor-Control/CursorControl/releases/download/v465/CursorControl_v465_RUNTIME.zip",
+  "package_sha256": "c786dd7c8babd8d4c3b4f63f3c97667ad495841c724a3a857dc5c4e879a0f18d",
+  "game_exe_sha256": "8977a7513c02b8fcdddc907e8bccaf04896d7223e1e825a51229256d0549f000",
+  "package_bytes": 195622517,
   "news": [
     {
       "version": "v462",
       "title": "Full stability and persistence hardening",
       "details": "Thread-safe cloud/profile state application, safer atomic saves, proper Windows GUI build and embedded Cursor Control icon."
     },
-    {
+    {ccf
       "version": "v461",
       "title": "Ship materials and Expedition rewards",
       "details": "Added the six Ship Module material sprites and redesigned Space Expedition completion rewards with clear icons and quantities."
